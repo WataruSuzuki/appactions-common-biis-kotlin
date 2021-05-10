@@ -25,7 +25,7 @@ android {
 
     defaultConfig {
         // This ID uniquely identifies your app on the device and in Google Play Store
-        applicationId "com.example.myapp"
+        applicationId "jp.co.devjchankchan.example.myapp"
 
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
@@ -56,8 +56,8 @@ android {
             isDefault = true
         }
         release {
-            minifyEnabled true
-            shrinkResources true
+            minifyEnabled false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
         }
